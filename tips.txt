@@ -1,0 +1,42 @@
+GIT
+----
+email: cursosrap2020@gmail.com
+username: GitRaffo
+password: @@@github1@@@
+----------------------------
+- ingrese al cmd:
+  . git config --global user.name "GitRaffo"
+  . git config --global user.email "cursosrap2020@gmail.com"
+
+  . mkdir repositorio
+  . cd repositorio
+  . echo hola mundo > "index.html"
+
+  . git init
+  . code . ("para modificar archivo index.html")
+  . git status ("para ver archivo no rastreado")
+  . git add . ("agregar al bufer los archivos modificados")
+  . git diff ("visualiza la diferencia de modificacion")
+  . git status ("ver el estado de los archivos")
+  . git commit -m "mi primer commit" ("ejecuta el copiado de archivos al repositorio poniedole una descripcion")
+  . git log ("visualiza los commits") 
+  . git checkout codigo ("para retroceder a la version, segun el codigo")
+  
+-------------------------------
+- instalar github
+- ingresando a github:
+  . clic en code/copiar url
+  . estando en carpeta "GIT" en escritorio de la pc:
+    . abrir terminal:
+      . git clone https://github.com/GitRaffo/mi-repositorio.git ("clonar la ruta")
+      . code .("ingresar al aplicativo code para modificar archivo hola")
+      . git add . ("agregar al buffer archivos modificados")
+      .git diff ("visualiza la diferencia de modificacion")
+      . git status ("ver el estado de los archivos")
+      . git commit -m "mi primer commit" ("ejecuta la modificacion de archivo hola en repositorio poniedole una descripcion")
+      . git push("para transferir el archivo modificado al repositorio de github")
+
+
+
+   
+
